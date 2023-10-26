@@ -25,17 +25,73 @@ include('layout/header.php');
                     <div class="col-md-1"></div>
                     <div class="col-md-10 col-sm-8 container-fluid">
 
-                        <h2 class="Titulo fw-bolder">Panorama do Comportamento Digital</h2>
+                        <h2 class="Titulo fw-bolder">Introdução à Ética</h2>
                         <!-- tirei o hr por que o menu não estava ficando sobreposto -->
                         <!-- <hr> -->
 
                         <div class="m-4" id="obj">
-                            <h3 class="Titulo fw-semibold"> 01 - Objetivos</h3>
-                            <p><i class="fa fa-dot-circle text-success"></i> Ilustrar o comportamento dos brasileiros na internet;</p>
-                            <p><i class="fa fa-dot-circle text-success"></i> Apresentar um recorte do universo de eventos técnico-científicos;</p>
-                            <p><i class="fa fa-dot-circle text-success"></i> Listar as oportunidades educacionais durante e pós-pandemia.</p>
-                            <br>
+                            <h3 class="Titulo fw-semibold"> 01 - Objetivo</h3>
+                            <p><i class="fa fa-dot-circle text-success"></i>Contextualizar a ética como parte da história humana.</p>
+                           
                         </div>
+
+                        <!-- Citação com borda verde (esquerda) -->
+  <div class="bd-callout bd-callout-success m-3">
+
+    <!-- blockquote do bootstrap -->
+    <figure>
+      <blockquote class="blockquote">
+        <p>"O homem é um ser que não tem garantido de antemão seu próprio ser, mas deve conquistá-lo por empenho de sua própria liberdade."
+       </p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        <cite title="Source Title">- (OLIVEIRA, 1993, p.11)
+     </cite>
+      </figcaption>
+    </figure>
+  </div>
+  <!-- Citação com borda verde (esquerda) -->
+
+  <div class="text-left">
+       <p> O estudo da ética pertence primariamente à filosofia, mais em particular,
+           ao seu campo de conhecimento denominado “filosofia moral”, “filosofia
+           prática” ou, ainda, “axiologia” (teoria dos valores), pois se ocupa do agir do
+           ser humano, suas escolhas, bem como dos meios utilizados para alcançá-las.
+           Por isso, a ética contempla muitos aspectos do agir humano. Muito
+           provavelmente já utilizamos essa palavra, ou mesmo a tenhamos escutado
+           por outras pessoas. Às vezes, associamos-na a determinados tipos de
+           comportamentos como, por exemplo, aquelas condutas que consideramos
+           corretas e dignas de aprovação, contrastando com outros tipos de
+           comportamentos que reputamos como indignos ou recusáveis. Desse modo,
+           o conteúdo da palavra ética está estreitamente ligado a juízos que
+           constantemente fazemos sobre a correção ou a incorreção das ações
+           humanas, ou sobre a noção de certo e errado. Nesse sentido, a ética pretende
+           conferir ao ser humano conhecimento que lhe permite saber eleger
+           corretamente cada ato que venha a realizar.</p>
+
+           <p>A esse respeito, o filósofo grego Aristóteles (384-322 a.C.) escreveu em sua obra Ética a Nicômaco:</p>
+
+            <!-- Citação com borda verde (esquerda) -->
+    <div class="bd-callout bd-callout-success m-3">
+         <!-- blockquote do bootstrap -->
+       <figure>
+           <blockquote class="blockquote">
+             <p>
+             "a excelência moral também está ao nosso alcance, da mesma forma que a deficiência moral. Com efeito, onde está ao nosso alcance agir, também está ao nosso alcance não agir, e onde somos capazes de dizer ‘não’, também somos capazes de dizer 'sim'."
+            </p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            <cite title="Source Title">- (ARISTÓTELES, 2001, p. 57)
+            </cite>
+         </figcaption>
+        </figure>
+    </div>
+       <!-- Citação com borda verde (esquerda) -->
+
+       <p>Isso significa que, para esse filósofo, tanto a virtude quanto o vício estão em nosso poder. Fazer ou não fazer o bem e o correto são questões de conhecimento do que sejam o bem e o correto a se fazer, de modo que a posse desse conhecimento trabalha em conjunto com a escolha por agir de uma ou de outra maneira. Aristóteles acreditava, afinal, que o comportamento entendido como ideal era uma prática a ser perseguida, pois conduziria o indivíduo e a sociedade ao seu objetivo final de felicidade.</p>
+
+       <p>Esse estudo dos atos humanos indica que tais ações podem ser valoradas de diversos modos, isto é, pode-se atribuir-se a elas algum juízo de valor, se realizadas pela vontade e liberdade da pessoa. O ato humano que não seja realizado por meio de sua vontade, e em que esteja ausente sua liberdade, não entra no estudo do campo da ética, pois não pode ser considerado um exercício consciente do ser humano. Temos, portanto, que a ética está intimamente relacionada ao binômio ação e liberdade. Este, por seu turno, liga-se, ainda, às noções de escolha e de responsabilidade.</p>
+  </div>
 
                         <div class="text-center img-01">
                             <div class="zoom">
