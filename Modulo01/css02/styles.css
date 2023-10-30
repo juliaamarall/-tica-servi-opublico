@@ -32,22 +32,6 @@ ul li.menu a {
     list-style: disc;
 }
 
-
-
-/* CAIXA CURIOSIDADES */
-.accordion #content .caixaprincipal#titulocuriosidade {
-    background-color: #A042E5;
-    /*cor da caixa principal curiosidade*/
-    color: #fffffff6;
-    /*cor da palavra na caixa principal*/
-}
-
- #curiosidades {
-    background-color:#c082ec94 ;
-    /*cor da caixa secundaria curiosidade */
-}
-/* FIM DO ESTILO DA CAIXA CURIOSIDADES */
-
 /* ESTILIZAÇÃO PARA OS ACCORDIONS (SEM ANIMAÇÃO) */
 .accordion-body {
     background-color: rgb(240, 238, 238);
@@ -70,56 +54,10 @@ ul li.menu a {
     border-bottom-right-radius: 0px;
 }
 
-/* ESTILIZAÇÃO PARA O LINK EXTERNO PARA O BLOCO 02 DO SEGUNDO TÓPICO */
-/* colocando um background green em um alert especifico */
-#back-green{
-   background-color: rgb(25, 135, 84);
-}
-.link-externo{
-    text-decoration: none;
-    color: white;
-}
+/* FIM DA ESTILIZAÇÃO DOS ACCORDIONS SEM ANIMAÇÃO */
 
-/* ESTILIZAÇÃO DA TABLE TH */
-th{
-    font-weight: lighter;
-}
+ /* DARK MODE DA PÁGINA DO CURSO */
 
-
-@media (max-width: 767px) {
-    thead{
-        display: none;
-    } 
-
-     td{
-        display: block !important;
-        gap: .5rem;
-    }
-
-    td::before{
-        content: attr(data-th) ": ";
-        font-weight: bold;
-    }
-
-    iframe{
-        width: 100%;
-    }
-    
-}
-
-/* ESTILIZAÇÃO DO ALERT CINZA CLARO (SÉTIMO BLOCO DO TÓPICO 03) */
-#alert-personalizado{
-    background-color: #dddbdbda;
-    border-color: #e7e5e5e5;
-}
-
-/* ESTILIZAÇÃO DO ALERT BRANCO */
-#alert-branco{
-    font-size: 0.5em;
-}
-
-
-/* DARK MODE DA PÁGINA DO CURSO (EVENTOS DIGITAIS) */
 [data-theme="dark"] #obj > h3 {
    color: white;
 }
@@ -145,14 +83,15 @@ th{
    [data-theme="dark"] .accordion-body {
     background-color: #ccc;
    }
+   /* FIM DO ESTILO MODO ESCURO */
 
-   /* FIM DA ESTILIZAÇÃO DO DARK MODE */
+/* ESTILIZAÇÃO ÉTICA E SERVIÇO PÚBLICO */
 
-   /* ESTILIZAÇÃO PARA A PÁGINA DE REFERENCIAS */
-   #ref-topico p{
-    border: 2px solid red;
-   }
-   /* FIM DA ESTILIZAÇÃO PARA PÁGINA DE REFERENCIAS */
+#teste-border{
+    border-bottom: 1px solid #ccc;
+}
+
+
 
 
 

@@ -24,20 +24,48 @@ include( 'layout/menu.php' );
 <div class = 'col-md-1'></div>
 <div class = 'col-md-10 col-sm-8 container-fluid'>
 
-<h2 class = 'Titulo fw-bolder'>Design e planejamento de eventos digitais</h2>
+<h2 class = 'Titulo fw-bolder'>Concepções Éticas</h2>
 <!-- tirei o hr por que o menu não estava ficando sobreposto -->
 <!-- <hr> -->
 
 <div class = 'm-4' id="obj">
 <h3 class = 'Titulo fw-semibold'> 03 - Objetivos</h3>
-<p><i class = 'fa fa-dot-circle text-success'></i>Apresentar elementos técnicos necessários para realização de eventos digitais;
+<p><i class = 'fa fa-dot-circle text-success me-2'></i>Apresentar alguns sistemas éticos e seus principais teóricos.
 </p>
-<p><i class = 'fa fa-dot-circle text-success'></i>
-Ilustrar a experiência de eventos digitais a partir de exemplos reais;
-</p>
-<p><i class = 'fa fa-dot-circle text-success'></i>  Listar possibilidades de eventos públicos com e sem processo licitatório.</p>
-<br>
 </div>
+
+<div class="text-left">
+    <p>Ao longo da história, foram formulados diversos sistemas éticos. Os primeiros filósofos da Grécia Antiga se colocavam a pergunta, antes de tudo, pelo ser de todas as coisas, ou seja, pela sua “verdadeira realidade” ou sua “autêntica natureza”, uma vez que muitas vezes as “aparências enganam”. De modo que alguns deles não demoraram a impor-se a pergunta:</p>
+
+    <!-- CAIXA DE TEXTO DÚVIDA -->
+<section class="container">
+    <div class="accordion ">
+      <section id="content">
+        <div class="caixaprincipal" id="tituloDuvida">
+          <div class="div_teste">
+            <div><i class="fa-solid fa-person-circle-question"></i> DÚVIDA</div>
+
+            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+          </div>
+        </div> <!--caixa Principal-->
+        <div class="accordion-content" id="Duvida">
+          <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
+                Passe o mouse acima
+              </strong></strong></p>
+          <p class="txt-caixasecundaria">Em que consiste a virtude (areté) do homem e qual a verdadeira noção do bem?
+          </p><!--caixa secundaria-->
+        </div>
+      </section>
+  </section>
+  <!-- FIM DA CAIXA DE TEXTO DÚVIDA -->
+
+  <p>Vejamos, brevemente, alguns dos sistemas éticos.</p>
+
+</div>
+
+
+
+
 
 <!-- primeiro bloco do tópico 02 ( RESUMO ) -->
 
