@@ -89,10 +89,8 @@ document.addEventListener('DOMContentLoaded', function () {
     
     // Correção do seletor para o título (exemplo com h1)
     sr.reveal('h1', { duration: 1000 });
-    
-    sr.reveal('.bd-callout', { duration: 1000 });
     // Adicione outros seletores e efeitos conforme necessário
-    sr.reveal('.text-left', { duration: 1000 });
+    sr.reveal(".text-left", { duration: 1000 });
     sr.reveal('.accordion', { duration: 1000 });
 
     sr.reveal('iframe', { duration: 1000 });
