@@ -400,15 +400,16 @@ include( 'layout/menu.php' );
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-       Legalidade
+        Legalidade
       </button>
     </h2>
     <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
       <div class="accordion-body sem-borda">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <p>Todo ato administrativo deve seguir fielmente os meandros da lei. Em decorrência do princípio da legalidade, é costumeira a afirmação de que a Administração Pública não pode agir contra a lei (contra legem) ou além da lei (praeter legem), só podendo agir nos estritos limites da lei (secundum legem). Essa é a principal diferença do princípio da legalidade para os particulares e para a Administração Pública, pois aqueles podem fazer tudo que a lei não proíba, enquanto esta só pode fazer o que a lei determina ou autoriza.</p>
       </div>
     </div>
   </div>
+
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -417,7 +418,7 @@ include( 'layout/menu.php' );
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body sem-borda">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <p>Aqui é aplicado como sinônimo de igualdade: todos devem ser tratados de forma igualitária e respeitando o que a lei prevê. Dessa forma, o administrador público deve objetivar o interesse público, sendo, em consequência, inadmissível tratamento privilegiado aos amigos, não devendo imperar na Administração Pública a vigência do dito popular de que aos inimigos ofertaremos a lei e aos amigos as benesses da lei, de modo que a impessoalidade estabelece que a Administração Pública não deve conter a marca pessoal do administrador, ou seja, os atos públicos não são praticados pelo servidor, e sim pela Administração a que ele pertence.</p>
       </div>
     </div>
   </div>
@@ -430,10 +431,36 @@ include( 'layout/menu.php' );
     </h2>
     <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body sem-borda">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        <p>Respeito ao padrão moral para não comprometer os bons costumes da sociedade. A doutrina enfatiza que a noção de moral administrativa não está vinculada às convicções íntimas do agente público, mas sim à noção de atuação adequada e à ética existente no grupo social.</p>
       </div>
     </div>
+  </div>
 
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        Publicidade
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>Refere-se à transparência de todo ato público, salvo os casos previstos em lei. O princípio da publicidade vem a concretizar os postulados básicos do princípio republicano, a saber, a possibilidade de fiscalização das atividades administrativas pelo povo, haja vista que todo poder emana do povo, sendo toda a res (coisa) pública. Esse princípio da publicidade tem como intento assegurar transparência na gestão pública, pois administrador público não é dono do patrimônio de que ele cuida, sendo mero procurador da gestão dos bens da coletividade, devendo possibilitar aos administrados o conhecimento pleno de suas condutas administrativas.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        Eficiência
+      </button>
+    </h2>
+    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body sem-borda">
+        <p>Ser o mais eficiente possível na utilização dos meios que são postos à sua disposição para a execução do seu mister. De acordo com as regras desse princípio, não basta ao administrador público agir somente de acordo com as regras da legalidade e da moralidade. É necessário que busque o que for melhor, entre as diversas opções que se lhe oferecem, que represente melhor qualidade ou condições para melhor atender às exigências do serviço público, do bem comum. De fato, a eficiência pressupõe a realização das atribuições com máxima presteza (rapidez e prontidão), com qualidade perfeita e de forma proficiente. A eficiência deve ser compreendida tanto qualitativa como quantitativamente.</p>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -441,7 +468,21 @@ include( 'layout/menu.php' );
       <!-- fim subtópico bloco07 -->
     </div>
 
-<!-- INICIO DO BLOCO07 DO MODULO02(TOPICO04) -->
+<!-- FIM DO BLOCO07 DO MODULO02(TOPICO04) -->
+
+<!-- INICIO DO BLOCO08 DO MODULO02(TOPICO4) -->
+    <div class="text-left mt-3">
+    <h3 class="fw-semibold text-secondary">Exemplos de Códigos de Ética</h3>
+    <hr>
+    <p>Indicamos, a seguir, um modelo de código de ética. Para tanto, destacamos o Código de Ética Profissional do Servidor Público Federal (1994) e o Sistema de Gestão de Ética do Poder Executivo Federal (2008).</p>
+
+    <p><i class="bi bi-arrow-right-circle icon-green"></i>Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal: <a href="https://unilab.edu.br/wp-content/uploads/2018/01/C%C3%B3digo-de-%C3%89tica-do-Servidor-P%C3%BAblico-Federal.pdf" target="_blanck">https://unilab.edu.br/wp-content/uploads/2018/01/C%C3%B3digo-de-%C3%89tica-do-Servidor-P%C3%BAblico-Federal.pdf</a></p>
+    <p><i class="bi bi-arrow-right-circle icon-green"></i> DECRETO Nº 1.171, DE 22 DE JUNHO DE 1994: <a href="https://www.planalto.gov.br/ccivil_03/decreto/d1171.htm"> http://www.planalto.gov.br/ccivil_03/decreto/d1171.htm</a></p>
+    <p><i class="bi bi-arrow-right-circle icon-green"></i> DECRETO Nº 6.029, DE 1º DE FEVEREIRO DE 2007: <a href="http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/d6029.htm"> http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2007/decreto/d6029.htm</a></p>
+
+    </div>
+<!-- FIM DO BLOCO08 DO MODULO02(TOPICO4) -->
+
 
 
 </section>

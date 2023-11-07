@@ -121,13 +121,13 @@ function defineCurrentTheme(theme) {
 
     document.documentElement.setAttribute("data-theme", theme)
     if (theme == "light") {
-        document.getElementById('logo').src = "imgs/logoEGP2.png"
-        document.getElementById('img_logo').src = "imgs/logoEGP2.png"
+        document.getElementById('logo').src = "imgs/quizz&logo/logoEGP2.png"
+        document.getElementById('img_logo').src = "imgs/quizz&logo/logoEGP2.png"
         icon.innerHTML = darkSvg
         return
     }
-    document.getElementById('logo').src = "imgs/logoEGP1.png"
-    document.getElementById('img_logo').src = "imgs/logoEGP1.png"
+    document.getElementById('logo').src = "imgs/quizz&logo/logoEGP1.png"
+    document.getElementById('img_logo').src = "imgs/quizz&logo/logoEGP1.png"
     icon.innerHTML = lightSvg
 }
 
@@ -140,6 +140,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const sr = ScrollReveal({ reset: true });
 
     // ScrollReveal para a página de apresentação
+    sr.reveal('.main-content', { duration: 1000 });
 //    sr.reveal('#para01', { duration: 1000 });
 //     sr.reveal('#para02', { duration: 1000 });
 
@@ -147,13 +148,15 @@ document.addEventListener('DOMContentLoaded', function () {
     sr.reveal('#img-1', { duration: 1000 });
     
     // Correção do seletor para o título (exemplo com h1)
-    sr.reveal("h1", { duration: 1000 });
-    sr.reveal("tr", { duration: 1000 });
+    sr.reveal('h1', { duration: 1000 });
     
+    sr.reveal('.bd-callout', { duration: 1000 });
+    sr.reveal('.none', { duration: 1000 });
     // Adicione outros seletores e efeitos conforme necessário
-    sr.reveal(".text-left", { duration: 1000 });
+    sr.reveal('.scrool', { duration: 1000 });
+    sr.reveal('.accordion', { duration: 1000 });
 
-    
+    sr.reveal('iframe', { duration: 1000 });
     
     // Certifique-se de incluir este código no local apropriado em sua página HTML
 });
@@ -163,26 +166,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
 // barra de progresso embaixo - JS 
 
-const progressbar = document.querySelector('#progress-bar')
+// const progressbar = document.querySelector('#progress-bar')
 
-const section = document.querySelector('section')
+// const section = document.querySelector('section')
 
 /*fazer minha animação e scroll - barra de progresso*/
-const animateProgressBar = () => {
-    let scrollMouse = -section.getBoundingClientRect().top;
-    let progressWidth = (scrollMouse / (section.getBoundingClientRect().height - document.documentElement.clientHeight)) * 100;
+// const animateProgressBar = () => {
+//     let scrollMouse = -section.getBoundingClientRect().top;
+//     let progressWidth = (scrollMouse / (section.getBoundingClientRect().height - document.documentElement.clientHeight)) * 100;
 
-    let value = Math.floor(progressWidth)
-    console.log(value)
+//     let value = Math.floor(progressWidth)
+//     console.log(value)
 
-    progressbar.style.width = value + "%"
+//     progressbar.style.width = value + "%"
 
-    if (value < 0) {
-        progressbar.style.width = '0%'
-    }
-}
-window.addEventListener('scroll', animateProgressBar)
-animateProgressBar()
+//     if (value < 0) {
+//         progressbar.style.width = '0%'
+//     }
+// }
+// window.addEventListener('scroll', animateProgressBar)
+// animateProgressBar()
 
 // CORES DO MENU QUE MUDAM CONFORME O USUARIO MUDA DE PAG
 
@@ -201,21 +204,37 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // teste do menu lateral
 
-var dropdown = document.getElementsByClassName("dropdown-btn");
-var i;
+// var dropdown = document.getElementsByClassName("dropdown-btn");
+// var i;
 
-for (i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var dropdownContent = this.nextElementSibling;
-    if (dropdownContent.style.display === "block") {
-      dropdownContent.style.display = "none";
-    } else {
-      dropdownContent.style.display = "block";
-    }
-  });
-}
+// for (i = 0; i < dropdown.length; i++) {
+//   dropdown[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     var dropdownContent = this.nextElementSibling;
+//     if (dropdownContent.style.display === "block") {
+//       dropdownContent.style.display = "none";
+//     } else {
+//       dropdownContent.style.display = "block";
+//     }
+//   });
+// }
 
+// SUBTÓPICO COM JQUERY
 
- 
+$(document).ready(function () {
+  
+    // Adicione um evento de clique a todos os botões de dropdown
+    $(".dropdown-btn").click(function (event) {
+        // Encontre o conteúdo de dropdown associado a este botão
+        var dropdown = $(this).next('.dropdown-container');
 
+        dropdown.stop(true,true).slideToggle();
+
+         event.stopPropagation();
+
+        //    fecha o dropdown no evento "mouseleave" na ul "dropDown"
+        $('.menulateral').mouseleave(function () {
+            dropdown.slideUp();
+        });
+    });
+});

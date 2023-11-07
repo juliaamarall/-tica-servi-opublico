@@ -1,7 +1,7 @@
 <!-- menu lateral começa aqui -->
 <nav class="menulateral shadow-lg">
         <div class="btn-expandir">
-            <img src="imgs/logoEGP2.png" alt="logo" id="logo">
+            <img src="imgs/logoEGP.png" alt="logo" id="logo">
         </div>
         <!-- os topicos começam aqui  -->
         <ul>
@@ -35,12 +35,42 @@
                 </a>
             </li>
 
+             <!-- 1º topico com subtópico -->
+        <button class="dropdown-btn">
             <li class="menu">
-                <a href="topico04.php">
-                    <span class="icon"><i class="bi bi-4-circle"></i></span>
-                    <span class="txt">Tipologia de Eventos Digitais</span>
+                <a data-valor="topico01.php">
+                    <span class="icon space"><i class="bi bi-4-circle"></i></span>
+                    <span class="txt">Modelos de Ética<i
+                            class="bi bi-caret-down-fill barra-sub"></i></span>
                 </a>
             </li>
+        </button>
+        <!-- subtopicos aqui  -->
+        <div class="dropdown-container" id="spy">
+            <a href="topico01.php">
+                <i class="fa-regular fa-pen-to-square circulo"></i>Inicío</a>
+
+            <a href="#item1">
+                <i class="fa-regular fa-pen-to-square circulo"></i>01.2 Ferramentas Estratégicas</a>
+
+            <a href="#item2">
+                <i class="fa-regular fa-pen-to-square circulo"></i>01.3 Ética nas Organizações</a>
+
+            <a href="#item3">
+                <i class="fa-regular fa-pen-to-square circulo"></i>01.4 Governança Corporativa</a>
+
+            <a href="#item4">
+                <i class="fa-regular fa-pen-to-square circulo"></i> 01.5 Padrão Britânico de Conduta na Vida Pública </a>
+
+                <a href="#item4">
+                <i class="fa-regular fa-pen-to-square circulo"></i> 01.6 Outras Experiências Estrangeiras </a>
+
+                <a href="#item4">
+                <i class="fa-regular fa-pen-to-square circulo"></i> 01.7 Modelos Éticos na América Latina</a>
+
+                <a href="#item4">
+                <i class="fa-regular fa-pen-to-square circulo"></i> 01.8 Exemplos de Códigos de Ética</a>
+        </div>
             <li class="menu">
                 <a href="referencias.php">
                     <span class="icon"><i class="bi bi-book-half"></i></span>
