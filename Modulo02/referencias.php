@@ -36,19 +36,19 @@ include( 'layout/menu.php' );
 
 <br>
 
-<p class = "Texto"> <i class="bi bi-book"></i> BRASIL. Constituição da República Federativa do Brasil (1988). Brasília: Edições Câmara, 2012.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> <strong>BRASIL</strong>. Constituição da República Federativa do Brasil (1988). Brasília: Edições Câmara, 2012.</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> MENDES, Annhia Valléria Calmon. Ética na Administração Pública Federal: a implementação de comissões de ética setoriais: entre o desafio e a oportunidade de mudar o modelo de gestão. Brasília: FUNAG, 2010.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> <strong>MENDES</strong>, Annhia Valléria Calmon. Ética na Administração Pública Federal: a implementação de comissões de ética setoriais: entre o desafio e a oportunidade de mudar o modelo de gestão. Brasília: FUNAG, 2010.</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> NOLAN Lord. Normas de conduta para a vida pública. Cadernos ENAP, Brasília, n.12, 1997.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> <strong>NOLAN</strong> Lord. Normas de conduta para a vida pública. Cadernos ENAP, Brasília, n.12, 1997.</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> OCDE. La ética en el servicio público: cuestiones y prácticas atuales. Madrid: MAP, 1997.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> <strong>OCDE</strong>. La ética en el servicio público: cuestiones y prácticas atuales. Madrid: MAP, 1997.</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> OECD. Trust in Government: ethics measures in OECD countries. Washington: OECD, 2000.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> <strong>OECD</strong>. Trust in Government: ethics measures in OECD countries. Washington: OECD, 2000.</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> WEBER, Max. A ética protestante e o espírito do capitalismo. São Paulo: Companhia das Letras, 2004.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> <strong>WEBER</strong>, Max. A ética protestante e o espírito do capitalismo. São Paulo: Companhia das Letras, 2004.</p>
 
-<p class = "Texto"> <i class="bi bi-book"></i> WEBER, Max. Ciência e política: duas vocações. São Paulo: Cultrix, 2011.</p>
+<p class = "Texto"> <i class="bi bi-book"></i> <strong>WEBER</strong>, Max. Ciência e política: duas vocações. São Paulo: Cultrix, 2011.</p>
 
 
 <br><br>
