@@ -121,13 +121,13 @@ function defineCurrentTheme(theme) {
 
     document.documentElement.setAttribute("data-theme", theme)
     if (theme == "light") {
-        document.getElementById('logo').src = "imgs/quizz&logo/logoEGP2.png"
-        document.getElementById('img_logo').src = "imgs/quizz&logo/logoEGP2.png"
+        document.getElementById('logo').src = "imgs//logoEGP2.png"
+        document.getElementById('img_logo').src = "imgs//logoEGP2.png"
         icon.innerHTML = darkSvg
         return
     }
-    document.getElementById('logo').src = "imgs/quizz&logo/logoEGP1.png"
-    document.getElementById('img_logo').src = "imgs/quizz&logo/logoEGP1.png"
+    document.getElementById('logo').src = "imgs//logoEGP1.png"
+    document.getElementById('img_logo').src = "imgs//logoEGP1.png"
     icon.innerHTML = lightSvg
 }
 
@@ -138,26 +138,7 @@ defineCurrentTheme(themeSystem)
 document.addEventListener('DOMContentLoaded', function () {
     // Inicialização do ScrollReveal
     const sr = ScrollReveal({ reset: true });
-
-    // ScrollReveal para a página de apresentação
-    sr.reveal('.main-content', { duration: 1000 });
-//    sr.reveal('#para01', { duration: 1000 });
-//     sr.reveal('#para02', { duration: 1000 });
-
-    // ScrollReveal para a página do módulo 01
-    sr.reveal('#img-1', { duration: 1000 });
-    
-    // Correção do seletor para o título (exemplo com h1)
-    sr.reveal('h1', { duration: 1000 });
-    
-    sr.reveal('.bd-callout', { duration: 1000 });
-    sr.reveal('.none', { duration: 1000 });
-    // Adicione outros seletores e efeitos conforme necessário
-    sr.reveal('.scrool', { duration: 1000 });
-    sr.reveal('.accordion', { duration: 1000 });
-
-    sr.reveal('iframe', { duration: 1000 });
-    
+    sr.reveal(".text-left", { duration: 500 });   
     // Certifique-se de incluir este código no local apropriado em sua página HTML
 });
 

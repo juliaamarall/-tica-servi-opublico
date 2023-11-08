@@ -1,7 +1,7 @@
 <!-- menu lateral começa aqui -->
 <nav class="menulateral shadow-lg">
         <div class="btn-expandir">
-            <img src="imgs/logoEGP.png" alt="logo" id="logo">
+            <img src="imgs/logoEGP2.png" alt="logo" id="logo">
         </div>
         <!-- os topicos começam aqui  -->
         <ul>
@@ -47,28 +47,28 @@
         </button>
         <!-- subtopicos aqui  -->
         <div class="dropdown-container" id="spy">
-            <a href="topico01.php">
+            <a href="topico04.php">
                 <i class="fa-regular fa-pen-to-square circulo"></i>Inicío</a>
 
-            <a href="#item1">
+            <a href="#sub-01">
                 <i class="fa-regular fa-pen-to-square circulo"></i>01.2 Ferramentas Estratégicas</a>
 
-            <a href="#item2">
+            <a href="#sub-02">
                 <i class="fa-regular fa-pen-to-square circulo"></i>01.3 Ética nas Organizações</a>
 
-            <a href="#item3">
+            <a href="#sub-03">
                 <i class="fa-regular fa-pen-to-square circulo"></i>01.4 Governança Corporativa</a>
 
-            <a href="#item4">
+            <a href="#sub-04">
                 <i class="fa-regular fa-pen-to-square circulo"></i> 01.5 Padrão Britânico de Conduta na Vida Pública </a>
 
-                <a href="#item4">
+                <a href="#sub-05">
                 <i class="fa-regular fa-pen-to-square circulo"></i> 01.6 Outras Experiências Estrangeiras </a>
 
-                <a href="#item4">
+                <a href="#sub-06">
                 <i class="fa-regular fa-pen-to-square circulo"></i> 01.7 Modelos Éticos na América Latina</a>
 
-                <a href="#item4">
+                <a href="#sub-07">
                 <i class="fa-regular fa-pen-to-square circulo"></i> 01.8 Exemplos de Códigos de Ética</a>
         </div>
             <li class="menu">

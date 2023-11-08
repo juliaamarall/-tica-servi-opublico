@@ -164,7 +164,7 @@ include( 'layout/menu.php' );
 <!-- FIM DO BLOCO01 DO MODULO02(TOPICO4) -->
 
 <!-- INICIO DO BLOCO02 DO MODULO02(TOPICO4) -->
-      <div class="text-left mt-3">
+      <div class="text-left mt-3" id="sub-01">
       <h3 class="fw-semibold text-secondary">Ferramentas Estratégicas</h3>
       <hr>
       <p>Como ferramenta estratégica, o Conselho da OCDE aprovou seis medidas para a condução da ética no serviço público. São elas:</p>
@@ -180,7 +180,7 @@ include( 'layout/menu.php' );
 <!-- FIM DO BLOCO02 DO MODULO02(TÓPICO4) -->
 
 <!-- INICIO DO BLOCO03 DO MODULO02(TOPICO4) -->
-      <div class="text-left mt-3">
+      <div class="text-left mt-3" id="sub-02">
       <h3 class="fw-semibold text-secondary">Ética nas Organizações</h3>
       <hr>
       <p>A ética normativa tem como função precípua fazer recomendações e formular normas e prescrições morais a partir dos conceitos de liberdade, necessidade, valor, consciência e sociabilidade. Nessa perspectiva, a ética transcende a esfera filosófica do aspecto subjetivo do comportamento humano e se utiliza do conhecimento objetivo das estruturas sociais, das relações e das instituições para explicar a inter-relação entre moral e sociedade. Os atos morais são condicionados pela sociedade, mas o comportamento moral requer que o indivíduo se conscientize dos fatores sociais que o influenciam para que, assim, possa ser responsabilizado pelas próprias decisões.</p>
@@ -220,7 +220,7 @@ include( 'layout/menu.php' );
 
 
 <!-- INICIO DO BLOCO04 DO MODULO2(TOPICO4) -->
-      <div class="text-left mt-3">
+      <div class="text-left mt-3" id="sub-03">
       <h3 class="fw-semibold text-secondary">Governança Corporativa</h3>
       <hr>
         <p>Os códigos de Bom Governo surgiram a partir do conceito de Corporate Governance – Governança Corporativa, que tem como objetivo fundamental melhorar o funcionamento das empresas, tanto interna quanto externamente, buscando eficácia, transparência e responsabilidade perante a sociedade e seus integrantes. O conceito de Governança Corporativa está visivelmente dominado pelas experiências vividas pelos contextos Americanos e Ingleses, concentrando-se, de modo particular, nas empresas que atuam nas bolsas de valores.</p>
@@ -233,7 +233,7 @@ include( 'layout/menu.php' );
 <!-- FIM DO BLOCO04 DO MODULO2(TOPICO4) -->
 
 <!-- INICIO DO BLOCO05 DO MODULO2(TOPICO4) -->
-      <div class="text-left mt-3">
+      <div class="text-left mt-3" id="sub-04">
       <h3 class="fw-semibold text-secondary">Padrão Britânico de Conduta na Vida Pública</h3>
       <hr>
       <p>Buscaremos expor, agora, um breve apanhado sobre a experiência britânica. No ano de 1995, no mês de maio, deu-se a criação e a elaboração de um código de conduta, que incorporou os assim chamados “sete princípios da vida pública” propugnados pelo então primeiro-ministro o juiz Michael Patrick Nolan (1928-2007), conhecido como Lord Nolan. Ele presidiu o Comitê sobre normas de conduta na vida pública no Reino Unido. Tal código, por meio de uma formação continuada e da sujeição ao seu cumprimento a uma análise externa, constituiu-se um grande e importante avanço nos princípios democráticos que deveriam reger o Instituto e garantiu que fatos tão indesejáveis de corrupção financeira e política ocorridos no passado não tivessem oportunidade de se repetir.</p>
@@ -347,7 +347,7 @@ include( 'layout/menu.php' );
 <!-- FIM DO BLOCO05 DO MODULO2(TOPICO4) -->
 
 <!-- INICIO DO BLOCO06 DO MODULO2(TOPICO4) -->
-    <div class="text-left mt-3">
+    <div class="text-left mt-3" id="sub-05">
     <h3 class="fw-semibold text-secondary">Outras Experiências Estrangeiras</h3>
     <hr>
     <p>Em maio de 1997, em documento preparado pela Secretaria para o 13º encontro do Grupo de Especialistas do Programa das Nações Unidas para Administração Pública e Finanças, a ONU estabeleceu uma série de princípios diretores para a ética no serviço público. O documento privilegia sobretudo a ideia de profissionalização do serviço público e sugere que o comportamento ético do servidor aumenta proporcionalmente, à medida que também aumenta o profissionalismo. Isso se reflete imediatamente nos princípios propostos, que visam sempre à incorporação dos valores éticos ao comportamento profissional do servidor público. Destaquemos alguns dos princípios propostos pela ONU:</p>
@@ -372,7 +372,7 @@ include( 'layout/menu.php' );
 <!-- FIM DO BLOCO06 DO MODULO2(TOPICO4) -->
 
 <!-- INICIO DO BLOCO07 DO MODULO02(TOPICO04) -->
-    <div class="text-left mt-3">
+    <div class="text-left mt-3" id="sub-06">
     <h3 class="fw-semibold text-secondary">Modelos Éticos na América Latina</h3>
     <hr>
     <p>O problema da corrupção na América Latina tem se acentuado de uma maneira impressionante nas últimas décadas. Essa situação tem motivado uma série de iniciativas para conter esse problema. Uma dessas tentativas tem sido buscar fomentar a ética pública. Destacaremos, a seguir, dois projetos, a título de exemplo. Tais projetos merecem relevo dada a magnitude de seu alcance e também a sua capacidade de inovação.</p>
@@ -396,6 +396,7 @@ include( 'layout/menu.php' );
      <p>No Brasil, a exemplo dos “sete princípios” que vimos na Inglaterra, temos os princípios constitucionais que devem ser observados para que a função pública se integre de forma indissociável ao direito. São eles:</p>
 
      <!-- ACCORDION SEM ANIMAÇÃO -->
+     <div class="container">
      <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header">
@@ -463,6 +464,7 @@ include( 'layout/menu.php' );
     </div>
   </div>
 </div>
+</div>
 
      <!--  FIM ACCORDION SEM ANIMAÇÃO -->
       <!-- fim subtópico bloco07 -->
@@ -471,7 +473,7 @@ include( 'layout/menu.php' );
 <!-- FIM DO BLOCO07 DO MODULO02(TOPICO04) -->
 
 <!-- INICIO DO BLOCO08 DO MODULO02(TOPICO4) -->
-    <div class="text-left mt-3">
+    <div class="text-left mt-3" id="sub-07">
     <h3 class="fw-semibold text-secondary">Exemplos de Códigos de Ética</h3>
     <hr>
     <p>Indicamos, a seguir, um modelo de código de ética. Para tanto, destacamos o Código de Ética Profissional do Servidor Público Federal (1994) e o Sistema de Gestão de Ética do Poder Executivo Federal (2008).</p>
