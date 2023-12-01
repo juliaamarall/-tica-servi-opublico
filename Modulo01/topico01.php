@@ -36,7 +36,7 @@ include('layout/header.php');
                         </div>
 
                         <!-- Citação com borda verde (esquerda) -->
-  <div class="bd-callout bd-callout-success m-3">
+  <div class="bd-callout bd-callout-success m-3" data-aos="flip-up">
 
     <!-- blockquote do bootstrap -->
     <figure>
@@ -52,14 +52,27 @@ include('layout/header.php');
   </div>
   <!-- Citação com borda verde (esquerda) -->
 
-  <div class="text-left">
-       <p> O estudo da ética pertence primariamente à filosofia, mais em particular,
+
+     <!-- IMAGEM COM TEXTO AO LADO -->
+
+     <div class="apresentacao">
+
+<div class="img_apresentacao wow animate__zoomIn">
+    <img src="imgs-pessoas/Group 4.png" alt="">
+</div>
+<div class="wow fadeIn" data-wow-delay="0.3s">
+    <!-- Parágrafo com a biblioteca de animação  -->
+    <p class="texto_apresentacao">
+    O estudo da ética pertence primariamente à filosofia, mais em particular,
            ao seu campo de conhecimento denominado “filosofia moral”, “filosofia
            prática” ou, ainda, “axiologia” (teoria dos valores), pois se ocupa do agir do
            ser humano, suas escolhas, bem como dos meios utilizados para alcançá-las.
            Por isso, a ética contempla muitos aspectos do agir humano. Muito
            provavelmente já utilizamos essa palavra, ou mesmo a tenhamos escutado
-           por outras pessoas. Às vezes, associamos-na a determinados tipos de
+           por outras pessoas.
+    </p><br><br><br>
+
+    <p> Às vezes, associamos-na a determinados tipos de
            comportamentos como, por exemplo, aquelas condutas que consideramos
            corretas e dignas de aprovação, contrastando com outros tipos de
            comportamentos que reputamos como indignos ou recusáveis. Desse modo,
@@ -69,10 +82,15 @@ include('layout/header.php');
            conferir ao ser humano conhecimento que lhe permite saber eleger
            corretamente cada ato que venha a realizar.</p>
 
-           <p>A esse respeito, o filósofo grego Aristóteles (384-322 a.C.) escreveu em sua obra Ética a Nicômaco:</p>
+</div>
+</div>
+
+<div class="text-left">
+<p>A esse respeito, o filósofo grego Aristóteles (384-322 a.C.) escreveu em sua obra Ética a Nicômaco:</p>
+</div>
 
             <!-- Citação com borda verde (esquerda) -->
-    <div class="bd-callout bd-callout-success m-3">
+    <div class="bd-callout bd-callout-success m-3" data-aos="flip-up">
          <!-- blockquote do bootstrap -->
        <figure>
            <blockquote class="blockquote">
@@ -90,12 +108,27 @@ include('layout/header.php');
 
        <p>Isso significa que, para esse filósofo, tanto a virtude quanto o vício estão em nosso poder. Fazer ou não fazer o bem e o correto são questões de conhecimento do que sejam o bem e o correto a se fazer, de modo que a posse desse conhecimento trabalha em conjunto com a escolha por agir de uma ou de outra maneira. Aristóteles acreditava, afinal, que o comportamento entendido como ideal era uma prática a ser perseguida, pois conduziria o indivíduo e a sociedade ao seu objetivo final de felicidade.</p>
 
-       <p>Esse estudo dos atos humanos indica que tais ações podem ser valoradas de diversos modos, isto é, pode-se atribuir-se a elas algum <a href="#" data-toggle="tooltip" data-placement="top" title="Bem e mal, certo e errado, correto e incorreto, admirável e deplorável">juízo de valor<i class="bi bi-search ms-1"></i></a>, se realizadas pela vontade e liberdade da pessoa. O ato humano que não seja realizado por meio de sua vontade, e em que esteja ausente sua liberdade, não entra no estudo do campo da ética, pois não pode ser considerado um exercício consciente do ser humano. Temos, portanto, que a ética está intimamente relacionada ao binômio ação e liberdade. Este, por seu turno, liga-se, ainda, às noções de escolha e de responsabilidade.</p>
+       <p>Esse estudo dos atos humanos indica que tais ações podem ser valoradas de diversos modos, isto é, pode-se atribuir-se a elas algum 
+       <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Bem e mal, certo e errado, correto e incorreto, admirável e deplorável" class="link-tooltip"><strong class="color-dark"> juízo de valor</strong></a></span>, se realizadas pela vontade e liberdade da pessoa. O ato humano que não seja realizado por meio de sua vontade, e em que esteja ausente sua liberdade, não entra no estudo do campo da ética, pois não pode ser considerado um exercício consciente do ser humano. Temos, portanto, que a ética está intimamente relacionada ao binômio ação e liberdade. Este, por seu turno, liga-se, ainda, às noções de escolha e de responsabilidade.</p>
 
-       <p>De maneira muito sintética, é possível dizer, também, que ética é o estudo sistemático da moralidade. Por sua vez, moralidade é o código (ou códigos)
-       <a href="#" data-toggle="tooltip" data-placement="top" title="Aceitável ou proibido dentro de um grupo e/ou época particular">normativo moral<i class="bi bi-search ms-1"></i></a> Tais códigos normativos ou comportamentais são reconhecidos pela comunidade numa época específica. Por exemplo, a lei é um tipo de código, um código legal que representa um mínimo aceitável de comportamento de um grupo particular (sociedade). De forma que, baseados na razão, o homem e as sociedades humanas foram estabelecendo valores fundamentais, sejam eles individuais ou sociais. A partir daí, foram derivados os deveres morais que, em geral, coincidem com os mesmos valores assumidos pelos sistemas jurídicos. Nesse sentido, os valores éticos aparecem consignados no direito, pois, no lugar de estarem situados em lugares diferentes, a ética e o direito estão em conformidade no que diz respeito à busca de uma conduta social desejável.</p>
-  </div>
 
+       <p class="btn-texto">
+            <button class="btn btn botao-modal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" >
+               <span class="font-teste"> CLIQUE PARA VER MAIS <i class="fa-regular fa-hand-pointer fa-fade"></i> </span>
+            </button>
+          </p>
+          <div style="min-height: 120px;" id="box-texto">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+              <div class="card card-body " style="width: 800px;">
+               <p>De maneira muito sintética, é possível dizer, também, que ética é o estudo sistemático da moralidade. Por sua vez, moralidade é o código (ou códigos) <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Aceitável ou proibido dentro de um grupo e/ou época particular" class="link-tooltip"><strong class="color-dark">Normativo moral</strong></a></span> Tais códigos normativos ou comportamentais são reconhecidos pela comunidade numa época específica. Por exemplo, a lei é um tipo de código, um código legal que representa um mínimo aceitável de comportamento de um grupo particular (sociedade). De forma que, baseados na razão, o homem e as sociedades humanas foram estabelecendo valores fundamentais, sejam eles individuais ou sociais. A partir daí, foram derivados os deveres morais que, em geral, coincidem com os mesmos valores assumidos pelos sistemas jurídicos. Nesse sentido, os valores éticos aparecem consignados no direito, pois, no lugar de estarem situados em lugares diferentes, a ética e o direito estão em conformidade no que diz respeito à busca de uma conduta social desejável.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+         
   <!-- CAIXA DE TEXTO DÚVIDA -->
   <section class="container">
     <div class="accordion ">
@@ -142,6 +175,10 @@ include('layout/header.php');
 <?php
 include('layout/footer.php');
 ?>
+
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>

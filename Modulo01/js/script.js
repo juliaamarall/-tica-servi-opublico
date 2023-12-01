@@ -75,31 +75,6 @@ function defineCurrentTheme(theme) {
 defineCurrentTheme(themeSystem)
 //FIM DA FUNÇÃO MODO ESCURO (JAMILLE)
 
-// script do ScrollReveal
-document.addEventListener('DOMContentLoaded', function () {
-    // Inicialização do ScrollReveal
-    const sr = ScrollReveal({ reset: true });
-
-    // ScrollReveal para a página de apresentação
-//    sr.reveal('#para01', { duration: 1000 });
-//     sr.reveal('#para02', { duration: 1000 });
-
-    // ScrollReveal para a página do módulo 01
-    sr.reveal('#img-1', { duration: 1000 });
-    
-    // Correção do seletor para o título (exemplo com h1)
-    sr.reveal('h1', { duration: 1000 });
-    // Adicione outros seletores e efeitos conforme necessário
-    sr.reveal(".text-left", { duration: 1000 });
-    sr.reveal('.accordion', { duration: 1000 });
-
-    sr.reveal('iframe', { duration: 1000 });
-    sr.reveal('tr', { duration: 1000 });
-    sr.reveal('.alert', { duration: 1000 });
-    
-    // Certifique-se de incluir este código no local apropriado em sua página HTML
-});
-
 
 //Amanda// 
 
@@ -159,5 +134,77 @@ for (i = 0; i < dropdown.length; i++) {
 }
 
 
- 
 
+// tooltips
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+// fim dos tooltips
+
+// timeline
+var items = document.querySelectorAll("li");
+
+function isItemInView(item){
+  var rect = item.getBoundingClientRect();
+  return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      if (isItemInView(items[i])) {
+        items[i].classList.add("show");
+      }
+    }
+  }
+
+  // listen for events
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);
+
+// timeline
+$(".st1").click(function(){
+  $(".profile").prop("checked", true);
+});
+$(".st2").click(function(){
+  $(".settings").prop("checked", true);
+});
+$(".st3").click(function(){
+  $(".posts").prop("checked", true);
+});
+$(".st4").click(function(){
+  $(".books").prop("checked", true);
+});
+
+
+// timelinetwo
+
+var items = document.querySelectorAll("li");
+
+function isItemInView(item){
+  var rect = item.getBoundingClientRect();
+  return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+function callbackFunc() {
+    for (var i = 0; i < items.length; i++) {
+      if (isItemInView(items[i])) {
+        items[i].classList.add("show");
+      }
+    }
+  }
+
+  // listen for events
+  window.addEventListener("load", callbackFunc);
+  window.addEventListener("resize", callbackFunc);
+  window.addEventListener("scroll", callbackFunc);

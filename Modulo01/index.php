@@ -27,16 +27,16 @@ include('layout/header.php');
 
                         <h2 class="Titulo fw-bolder">Apresentação</h2>
                         <!-- IMAGEM 01 DO TÓPICO DE APRESENTAÇÃO -->
-                            <div class="container">
+                            <div class="container" data-aos="zoom-in">
                                 <img src="imgs/Figura01.png" alt="Imagem da capa do curso com o títilo ÉTICA E SERVIÇO PÚBLICO" class="img-fluid">
                             </div>
                         <!-- FIM DA IMAGEM DE APRESENTAÇÃO   -->
 
-                        <div class="text-left">
+                        <div class="text-left wow fadeIn" data-wow-delay="0.3s"> 
                             <p>Desde tempos imemoráveis, a conduta humana tem sido objeto de estudo. A ética é um dos tantos ramos da filosofia e se dedica, resumidamente, ao estudo da moral em todas as suas manifestações. Ela é uma das mais altas ou mais avançadas maneiras de harmonização e convivência social. Nas décadas recentes, a abordagem sobre ética vem adquirindo cada vez mais espaço, em particular, em virtude da grande extensão de práticas perversas que tem se apresentado em grande partes do mundo, em particular, em diversas instituições públicas e privadas. Assim, algumas questões contemporâneas são postas pela ética, dentre elas: em que consiste a felicidade? O que torna uma ação boa ou má? Justa ou injusta.</p>
                         </div>
 
-                        <h2 class="Titulo fw-bolder">Objetivo</h2>
+                        <h2 class="Titulo fw-bolder wow fadeIn" data-wow-delay="0.3s">Objetivo</h2>
                         <p><i class="fa fa-dot-circle text-success"></i> Apresentar uma sumária conceituação de ética e moral, bem como alguns sistemas éticos e seus teóricos ao longo da história (períodos clássico grego, moderno e contemporâneo).</p>
 
                     
@@ -69,6 +69,10 @@ include('layout/header.php');
 <?php
 include('layout/footer.php');
 ?>
+
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>

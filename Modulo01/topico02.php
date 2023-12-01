@@ -35,9 +35,27 @@ Conceitos Básicos</h2>
 </p>
 </div>
 
+
+ <!-- IMAGEM COM TEXTO AO LADO -->
+
+ <div class="apresentacao" >
+
+<div class="img_apresentacao wow animate__zoomIn">
+    <img src="imgs-pessoas/Group 10.png" alt="">
+</div>
+<div class="wow fadeIn" data-wow-delay="0.3s">
+    <!-- Parágrafo com a biblioteca de animação  -->
+   
+    
+    <p> <strong>Ética</strong> é derivada da palavra grega ethos (έθος), que pode assumir uma diversidade de sentidos. O modo mais usual de emprego desse termo tem sido para indicar “modo de ser”, “caráter”. De modo que caráter pretende significar o conjunto de qualidades e disposições que definem uma pessoa e, ao mesmo tempo, a diferencia das demais. O caráter é adquirido pelo hábito. O hábito, por sua vez, nasce da repetição de atos iguais. Assim, pode-se dizer que das ações passam-se aos hábitos e dos hábitos à vida real. Desse modo, surge o <strong>ethos, o modo de ser e agir</strong>, que é definido pelas características que os hábitos deixaram marcados no ser. O ser humano, constantemente, está construindo seu próprio modo de ser e agir, seu caráter, que vai se transformando no ethos, na <strong>morada</strong> habitual do ser.</p>
+       
+
+</div>
+</div>
+
 <!-- primeiro bloco do tópico 02 ( RESUMO ) -->
     <div class="text-left">
-        <p> <strong>Ética</strong> é derivada da palavra grega ethos (έθος), que pode assumir uma diversidade de sentidos. O modo mais usual de emprego desse termo tem sido para indicar “modo de ser”, “caráter”. De modo que caráter pretende significar o conjunto de qualidades e disposições que definem uma pessoa e, ao mesmo tempo, a diferencia das demais. O caráter é adquirido pelo hábito. O hábito, por sua vez, nasce da repetição de atos iguais. Assim, pode-se dizer que das ações passam-se aos hábitos e dos hábitos à vida real. Desse modo, surge o <strong>ethos, o modo de ser e agir</strong>, que é definido pelas características que os hábitos deixaram marcados no ser. O ser humano, constantemente, está construindo seu próprio modo de ser e agir, seu caráter, que vai se transformando no ethos, na <strong>morada</strong> habitual do ser.</p>
+      
     </div>
 
     <!-- CAIXA DE TEXTO CURIOSIDADE -->
@@ -62,11 +80,11 @@ Conceitos Básicos</h2>
   </section>
  <!-- FIM DA CAIXA DE TEXTO CURIOSIDADE -->
 
- <div class="text-left">
+ <div class="text-left wow fadeIn" data-wow-delay="0.3s">
     <p>Já a palavra <strong>moral</strong> é proveniente do latim moralis, ou ainda, mor-moris, que quer dizer “costume”, “maneira”, “comportamento próprio”. Ela está relacionada com o ethos no sentido de que é um modo de ser que pode ser adquirido gradualmente, que tem diversas fases de desenvolvimento. Resumidamente, podemos dizer que moris significa, a exemplo do ethos, o modo de ser ou o caráter. No entanto, ao passo que o caráter é adquirido pelo hábito (portanto, no ato de viver), o costume se adquire por repetições não necessariamente intencionais. Desse modo, que a ética tem a ver com o campo de investigação do agir humano, enquanto a moral está relacionada ao objeto dessa investigação. Conforme Adela Cortina (1995),</p>
 
                          <!-- Citação com borda verde (esquerda) -->
-  <div class="bd-callout bd-callout-success m-3">
+  <div class="bd-callout bd-callout-success m-3" data-aos="flip-up">
 
     <!-- blockquote do bootstrap -->
     <figure>
@@ -207,6 +225,10 @@ Conceitos Básicos</h2>
 <?php
 include('layout/footer.php' );
 ?>
+
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
