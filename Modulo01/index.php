@@ -27,7 +27,7 @@ include('layout/header.php');
 
                         <h2 class="Titulo fw-bolder">Apresentação</h2>
                         <!-- IMAGEM 01 DO TÓPICO DE APRESENTAÇÃO -->
-                            <div class="container" data-aos="zoom-in">
+                            <div class="container mt-3" data-aos="zoom-in">
                                 <img src="imgs/Figura01.png" alt="Imagem da capa do curso com o títilo ÉTICA E SERVIÇO PÚBLICO" class="img-fluid">
                             </div>
                         <!-- FIM DA IMAGEM DE APRESENTAÇÃO   -->
