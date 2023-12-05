@@ -112,23 +112,22 @@ include('layout/header.php');
        <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Bem e mal, certo e errado, correto e incorreto, admirável e deplorável" class="link-tooltip"><strong class="color-dark"> juízo de valor</strong></a></span>, se realizadas pela vontade e liberdade da pessoa. O ato humano que não seja realizado por meio de sua vontade, e em que esteja ausente sua liberdade, não entra no estudo do campo da ética, pois não pode ser considerado um exercício consciente do ser humano. Temos, portanto, que a ética está intimamente relacionada ao binômio ação e liberdade. Este, por seu turno, liga-se, ainda, às noções de escolha e de responsabilidade.</p>
 
 
-       <p class="btn-texto">
-            <button class="btn btn botao-modal" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample" >
-               <span class="font-teste"> CLIQUE PARA VER MAIS <i class="fa-regular fa-hand-pointer fa-fade"></i> </span>
-            </button>
-          </p>
-          <div style="min-height: 120px;" id="box-texto">
-            <div class="collapse collapse-horizontal" id="collapseWidthExample">
-              <div class="card card-body " style="width: 800px;">
-               <p>De maneira muito sintética, é possível dizer, também, que ética é o estudo sistemático da moralidade. Por sua vez, moralidade é o código (ou códigos) <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Aceitável ou proibido dentro de um grupo e/ou época particular" class="link-tooltip"><strong class="color-dark">Normativo moral</strong></a></span> Tais códigos normativos ou comportamentais são reconhecidos pela comunidade numa época específica. Por exemplo, a lei é um tipo de código, um código legal que representa um mínimo aceitável de comportamento de um grupo particular (sociedade). De forma que, baseados na razão, o homem e as sociedades humanas foram estabelecendo valores fundamentais, sejam eles individuais ou sociais. A partir daí, foram derivados os deveres morais que, em geral, coincidem com os mesmos valores assumidos pelos sistemas jurídicos. Nesse sentido, os valores éticos aparecem consignados no direito, pois, no lugar de estarem situados em lugares diferentes, a ética e o direito estão em conformidade no que diz respeito à busca de uma conduta social desejável.</p>
-              </div>
-            </div>
+
+
+        <!-- botao CLIQUE PARA SABER MAIS! -->
+    <div class="text-center">
+        <p class="d-inline-flex gap-1 btn-texto">
+          <a class="btn  botao-modal" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Clique para saber mais!
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body text-left">
+          <p>De maneira muito sintética, é possível dizer, também, que ética é o estudo sistemático da moralidade. Por sua vez, moralidade é o código (ou códigos) <span><a href="#" data-bs-toggle="tooltip" data-bs-title="Aceitável ou proibido dentro de um grupo e/ou época particular" class="link-tooltip"><strong class="color-dark">Normativo moral</strong></a></span> Tais códigos normativos ou comportamentais são reconhecidos pela comunidade numa época específica. Por exemplo, a lei é um tipo de código, um código legal que representa um mínimo aceitável de comportamento de um grupo particular (sociedade). De forma que, baseados na razão, o homem e as sociedades humanas foram estabelecendo valores fundamentais, sejam eles individuais ou sociais. A partir daí, foram derivados os deveres morais que, em geral, coincidem com os mesmos valores assumidos pelos sistemas jurídicos. Nesse sentido, os valores éticos aparecem consignados no direito, pois, no lugar de estarem situados em lugares diferentes, a ética e o direito estão em conformidade no que diz respeito à busca de uma conduta social desejável.</p>
           </div>
-
-
-
-
-         
+        </div>
+    </div>
+        <!-- FIM DO botao CLIQUE PARA SABER MAIS! -->     
   <!-- CAIXA DE TEXTO DÚVIDA -->
   <section class="container">
     <div class="accordion ">
